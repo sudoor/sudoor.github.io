@@ -11,8 +11,10 @@ module.exports = {
       lang: 'zh-CN', // 将会被设置为 <html> 的 lang 属性
     },
   },
-  theme: "vuepress-theme-nine",
-  themeConfig: {},
+  theme: "theme/vuepress-theme-nine",
+  themeConfig: {
+    sidebar: 'auto'
+  },
   plugins: [
     ['@vuepress/search', {
       searchMaxSuggestions: 10
