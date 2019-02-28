@@ -16,9 +16,11 @@ module.exports = {
     sidebar: 'auto'
   },
   plugins: [
-    ['@vuepress/search', {
-      searchMaxSuggestions: 10
-    }]
+    // ['@vuepress/search', {
+    //   searchMaxSuggestions: 10
+    // }]
   ],
-  evergreen: true
+  evergreen: true,
+  less: {
+  }
 }
