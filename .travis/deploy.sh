@@ -26,6 +26,6 @@ git commit -m 'deploy @ `date`'
 # 如果发布到 https://<USER_NAME>.github.io/<REPO>
 # git push -f git@github.com:<USER_NAME>/<REPO>.git master:gh-pages
 
-# git push -f https://${ACCESS_TOKEN}@github.com:<USER_NAME>/{USER_NAME}.github.io.git master
+git push -f https://${ACCESS_TOKEN}@github.com:<USER_NAME>/{USER_NAME}.github.io.git master
 
 cd -
