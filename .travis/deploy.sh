@@ -16,9 +16,10 @@ sleep 4
 # 如果是发布到自定义域名
 echo 'w.wzzx.xyz' > CNAME
 
+msg = 'deploy @ '`date`
 git init
 git add -A
-git commit -m 'deploy @ '`date`
+git commit -m ${msg}
 
 # 如果发布到 https://<USER_NAME>.github.io
 #git push -f git@github.com:${USER_NAME}/{USER_NAME}.github.io.git master
