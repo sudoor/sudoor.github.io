@@ -3,6 +3,8 @@ language: node_js
 
 before_install:
   - export TZ='Asia/Shanghai'
+  - export ACCESS_TOKEN=${ACCESS_TOKEN}
+  - export USER_NAME=${USER_NAME}
   - npm install -g vuepress
 
 install:
