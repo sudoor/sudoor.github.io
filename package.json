@@ -11,9 +11,9 @@
   },
   "license": "MIT",
   "scripts": {
-      "dev": "vuepress dev .",
-      "build": "vuepress build . --dest dist"
-    },
+    "dev": "vuepress dev .",
+    "build": "vuepress build . --dest dist"
+  },
   "dependencies": {
     "vuepress": "^1.0.0-alpha.47",
     "vuepress-theme-nine": "^1.0.1-3.beta"
