@@ -24,4 +24,11 @@ cache:
     - node_modules
 
 script:
-  - ./.travis/deploy.sh
+  - npm run build
+  - cd dist
+  - ls -l
+  - echo 'w.wzzx.xyz' > CNAME
+  - git init
+  - git add -A
+  - git commit -m 'deploy @ `date`'
+  - git push -f https://${ACCESS_TOKEN}@github.com:${USER_NAME$}/${USER_NAME}.github.io.git master
