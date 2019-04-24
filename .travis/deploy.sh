@@ -9,6 +9,9 @@ npm run build
 # 进入生成的文件夹
 cd dist
 
+ls -l
+echo "waiting ....."
+sleep 5000
 # 如果是发布到自定义域名
 echo 'w.wzzx.xyz' > CNAME
 
