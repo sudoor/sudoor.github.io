@@ -85,8 +85,8 @@ module.exports = {
     comments: {
       owner: 'NineSwordsMonster',
       repo: 'gitment-comments',
-      clientId: '',
-      clientSecret: '',
+      clientId: '6df5e3f1c9df36da16f8',
+      clientSecret: 'b1e8d8bf0f60f1cffd7aedfed12e2383553028ea',
       autoCreateIssue: process.env.NODE_ENV !== 'development',
     },
     configureWebpack: {
