@@ -13,15 +13,12 @@ before_install:
   - npm install -g vuepress
 
 install:
+  - rm -rf node_modules
   - npm install
 
 branches:
   only:
     - source
-
-cache:
-  directories:
-    - node_modules
 
 script:
   - npm run build
