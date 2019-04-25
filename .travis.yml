@@ -46,4 +46,4 @@ deploy:
   verbose: true
   deployment_file: true
   on:
-    branch: master
+    branch: source
