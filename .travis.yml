@@ -28,7 +28,19 @@ script:
   - cd dist
   - ls -l
   - echo 'w.wzzx.xyz' > CNAME
-  - git init
-  - git add -A
-  - git commit -m 'deploy @ `date`'
-  - git push -f https://${ACCESS_TOKEN}@github.com:${USER_NAME}/${USER_NAME}.github.io.git master
+#  - git init
+#  - git add -A
+#  - git commit -m 'deploy @ `date`'
+#  - git push -f https://${ACCESS_TOKEN}@github.com:${USER_NAME}/${USER_NAME}.github.io.git master
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  local_dir: dist
+  repo: $USER_NAME.github.io
+  committer_from_gh: true
+  verbose: true
+  on:
+    branch: master
