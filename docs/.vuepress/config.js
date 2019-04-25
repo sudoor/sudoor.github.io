@@ -1,9 +1,9 @@
 module.exports = {
   // 网站 Title
-  title: 'Nine',
+  title: '九剑',
 
   // 网站描述
-  description: 'Nine Blog',
+  description: '独孤九剑，破尽天下武功',
 
   // 网站语言
   locales: {
@@ -14,6 +14,7 @@ module.exports = {
 
   // 使用的主题
   theme: 'nine',
+  serviceWorker: true,
 
   // 主题配置
   themeConfig: {
@@ -84,8 +85,8 @@ module.exports = {
     comments: {
       owner: 'NineSwordsMonster',
       repo: 'gitment-comments',
-      clientId: '6df5e3f1c9df36da16f8',
-      clientSecret: 'b1e8d8bf0f60f1cffd7aedfed12e2383553028ea',
+      clientId: '',
+      clientSecret: '',
       autoCreateIssue: process.env.NODE_ENV !== 'development',
     },
     configureWebpack: {
@@ -95,13 +96,23 @@ module.exports = {
         }
       }
     },
-    chainWebpack: config => {
-      config
-          .plugin('html')
-          .tap(args => {
-            args[0].chunksSortMode = "none"
-            return args
-          })
-    },
   },
+  ga: 'UA-118953951-1',
+  plugins: [
+    ['@vuepress/google-analytics', {
+      'ga': 'UA-118953951-1',
+    }],
+  ],
+  markdown: {
+    lineNumbers: true,
+
+  },
+  configureWebpack: (config, isServer) => {
+    if (!isServer) {
+      // 修改客户端的 webpack 配置
+    }
+  },
+  chainWebpack: (config, isServer) => {
+    // config 是 ChainableConfig 的一个实例
+  }
 }
