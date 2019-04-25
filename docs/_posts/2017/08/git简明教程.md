@@ -9,8 +9,6 @@ tags:
     - git
 keywords:
     - git
-description:
-    git 通用技能
 top: true
 ---
 

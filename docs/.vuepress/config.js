@@ -19,7 +19,7 @@ module.exports = {
   // 主题配置
   themeConfig: {
     // 主题语言，参考下方 [主题语言] 章节
-    // lang: require('vuepress-theme-nine/lib/langs/zh-CN'),
+    lang: require('vuepress-theme-nine/lib/langs/zh-CN'),
 
     // 个人信息（没有或不想设置的，删掉对应字段即可）
     personalInfo: {
@@ -76,8 +76,8 @@ module.exports = {
     // 顶部导航栏内容
     nav: [
       { text: '首页', link: '/', exact: true },
-      { text: '文章', link: '/posts/', exact: false },
-      { text: '归档', link: '/categories/', exact: false },
+      { text: '文章', link: '/posts/', exact: true },
+      { text: '归档', link: '/posts/categories/', exact: true },
       { text: 'Github', link: 'https://github.com/NineSwordsMonster/vuepress-theme-nine'  },
     ],
 
@@ -88,13 +88,6 @@ module.exports = {
       clientId: '6df5e3f1c9df36da16f8',
       clientSecret: 'b1e8d8bf0f60f1cffd7aedfed12e2383553028ea',
       autoCreateIssue: process.env.NODE_ENV !== 'development',
-    },
-    configureWebpack: {
-      resolve: {
-        alias: {
-          '@alias': 'assets'
-        }
-      }
     },
   },
   ga: 'UA-118953951-1',
@@ -113,6 +106,7 @@ module.exports = {
     }
   },
   chainWebpack: (config, isServer) => {
-    // config 是 ChainableConfig 的一个实例
+    config.resolve.alias
+      .set('@alias', 'assets')
   }
 }
