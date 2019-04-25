@@ -39,8 +39,11 @@ deploy:
   github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep_history: true
   local_dir: dist
-  repo: https://github.com:${USER_NAME}/$USER_NAME.github.io
+  target_branch: master
+  fqdn: w.wzzx.xyz
+#  repo: https://github.com:${USER_NAME}/$USER_NAME.github.io
   committer_from_gh: true
   verbose: true
+  deployment_file: true
   on:
     branch: master
