@@ -1,15 +1,19 @@
 ---
 title: git简明教程
-comments: true
+
 date: 2017-08-12 18:30:31
 updated: 2017-08-12 18:30:31
+
 categories:
     - git
 tags:
     - git
+    
 keywords:
     - git
-top: true
+    
+vssue-title: Git 简明教程
+
 ---
 
 以下内容来自自网站 [Try Git](https://try.github.io) （git简单入门教程网站）

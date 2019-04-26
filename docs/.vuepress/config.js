@@ -40,10 +40,13 @@ module.exports = {
 
       // 头像
       // 设置为外部链接
-      avatar: '/img/default_avatar.jpg',
+      avatar: '/img/default_avatar.jpeg',
       // 或者放置在 .vuepress/public 文件夹，例如 .vuepress/public/img/avatar.jpg
       // avatar: '/img/avatar.jpg',
-
+      geoBg: {
+        enable: true,
+        color: '#abc',
+      },
 
       // 社交平台帐号信息
       sns: {
@@ -63,7 +66,10 @@ module.exports = {
         // url: '/assets/img/bg.jpg',
 
         // 使用随机变化的图案，如果设置为 false，且没有设置图片 URL，将显示为空白背景
-        useGeo: true,
+        useGeo: {
+          enable: true,
+          color: '#ccc'
+        }
       },
 
       // 是否在 header 显示标题
@@ -72,6 +78,8 @@ module.exports = {
 
     // 是否显示文章的最近更新时间
     lastUpdated: true,
+
+    headerSearch: true,
 
     // 顶部导航栏内容
     nav: [
