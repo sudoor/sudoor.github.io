@@ -45,7 +45,7 @@ module.exports = {
       // avatar: '/img/avatar.jpg',
       geoBg: {
         enable: true,
-        color: '#abc',
+        // color: '#abc',
       },
 
       // 社交平台帐号信息
@@ -68,7 +68,7 @@ module.exports = {
         // 使用随机变化的图案，如果设置为 false，且没有设置图片 URL，将显示为空白背景
         useGeo: {
           enable: true,
-          color: '#ccc'
+          // color: '#ccc'
         }
       },
 
