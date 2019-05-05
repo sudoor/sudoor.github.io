@@ -1,4 +1,4 @@
-    ---
+---
 title: Vue 简明教程
 comments: true
 date: 2017-12-13 18:07:07
