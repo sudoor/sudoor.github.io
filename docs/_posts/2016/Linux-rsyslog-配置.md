@@ -3,10 +3,11 @@ title: Linux rsyslog 配置
 date: 2016-05-31 09:26:00
 update: 2016-05-31 09:26:00
 categories: Linux
-tags: rsyslog
+tags: 
+     - rsyslog
 keywords:
-    - Linux
-    - rsyslog
+     - Linux
+     - rsyslog
 description:
     Linux 系统中记录了多种日志，包括系统日志，服务，程序等等。
     在我们需要系统分析的时候，日志尤为重要。但如何查找日志或者归档日志？本文介绍一种集中化处理日志的方法--rsyslog
