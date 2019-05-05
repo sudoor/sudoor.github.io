@@ -1,6 +1,7 @@
 ---
 title: Linux rsyslog 配置
 date: 2016-05-31 09:26:00
+update: 2016-05-31 09:26:00
 categories: Linux
 tags: rsyslog
 keywords:

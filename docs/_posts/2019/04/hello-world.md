@@ -1,5 +1,6 @@
 ---
-categories: hello
+categories: 
+  - hello
 tags:
   - world
 date: 2019-04-01
