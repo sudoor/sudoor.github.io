@@ -2,7 +2,7 @@
 title: git简明教程
 
 date: 2017-08-12 18:30:31
-updated: 2017-08-12 18:30:31
+update: 2017-08-12 18:30:31
 
 categories:
     - git
