@@ -11,15 +11,11 @@
   },
   "license": "MIT",
   "scripts": {
-    "dev": "npx vuepress dev docs",
-    "build": "npx vuepress build docs --dest dist"
+    "dev": "npx vuepress dev .",
+    "build": "npx vuepress build . --dest dist"
   },
   "dependencies": {
-    "vuepress": "^1.0.0-alpha.47",
+    "vuepress": "^1.0.0",
     "vuepress-theme-nine": "^1.0.5"
-  },
-  "devDependencies": {
-    "less": "^3.9.0",
-    "less-loader": "^4.1.0"
   }
 }
