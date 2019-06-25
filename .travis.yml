@@ -1,46 +1,45 @@
-# language: node_js
+language: node_js
 
-# node_js:
-#   - "8"
+node_js:
+  - "8"
 
-# git:
-#   submodules: false
+git:
+  submodules: false
 
-# before_install:
-#   - export TZ='Asia/Shanghai'
-#   - export ACCESS_TOKEN=${ACCESS_TOKEN}
-#   - export USER_NAME=${USER_NAME}
-#   - npm install -g vuepress
+before_install:
+  - export TZ='Asia/Shanghai'
+  - export ACCESS_TOKEN=${ACCESS_TOKEN}
+  - export USER_NAME=${USER_NAME}
+  - npm install -g vuepress
 
-# install:
-#   - rm -rf node_modules
-#   - npm install
+install:
+  - npm install
 
-# branches:
-#   only:
-#     - source
+branches:
+  only:
+    - source
 
-# script:
-#   - npm run build
-#   - cd dist
-#   - ls -l
-#   - echo 'hub.alili.fun' > CNAME
-# #  - git init
-# #  - git add -A
-# #  - git commit -m 'deploy @ `date`'
-# #  - git push -f https://${ACCESS_TOKEN}@github.com:${USER_NAME}/${USER_NAME}.github.io.git master
+script:
+  - npm run build
+  - cd dist
+  - ls -l
+  - echo 'hub.alili.fun' > CNAME
+#  - git init
+#  - git add -A
+#  - git commit -m 'deploy @ `date`'
+#  - git push -f https://${ACCESS_TOKEN}@github.com:${USER_NAME}/${USER_NAME}.github.io.git master
 
-# deploy:
-#   provider: pages
-#   skip_cleanup: true
-#   github_token: $ACCESS_TOKEN  # Set in the settings page of your repository, as a secure variable
-#   keep_history: true
-#   local_dir: dist
-#   target_branch: master
-#   fqdn: hub.alili.fun
-# #  repo: https://github.com:${USER_NAME}/$USER_NAME.github.io
-#   committer_from_gh: true
-#   verbose: true
-#   deployment_file: true
-#   on:
-#     branch: source
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $ACCESS_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  local_dir: dist
+  target_branch: master
+  fqdn: hub.alili.fun
+#  repo: https://github.com:${USER_NAME}/$USER_NAME.github.io
+  committer_from_gh: true
+  verbose: true
+  deployment_file: true
+  on:
+    branch: source
