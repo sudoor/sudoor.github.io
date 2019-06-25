@@ -24,52 +24,51 @@ module.exports = {
     // 个人信息（没有或不想设置的，删掉对应字段即可）
     personalInfo: {
       // 昵称
-      nickname: 'meteorlxy',
+      nickname: 'nine',
 
       // 个人简介
-      description: 'Happy Coding<br/>Happy Life',
+      description: 'A coder',
 
       // 电子邮箱
-      email: 'meteor.lxy@foxmail.com',
+      email: 'wangjia_1919@163.com',
 
       // 所在地
-      location: 'Xi\'an City, China',
+      location: 'Suzhou, China',
 
       // 组织
-      organization: 'Xi\'an Jiao Tong University',
+      organization: 'null',
 
       // 头像
       // 设置为外部链接
-      avatar: 'https://www.meteorlxy.cn/assets/img/avatar.jpg',
+      // avatar: 'https://',
       // 或者放置在 .vuepress/public 文件夹，例如 .vuepress/public/img/avatar.jpg
-      // avatar: '/img/avatar.jpg',
-
+      avatar: '/img/default_avatar.jpeg',
 
       // 社交平台帐号信息
       sns: {
         // Github 帐号和链接
         github: {
-          account: 'meteorlxy',
-          link: 'https://github.com/meteorlxy',
+          account: 'NineSwordsMonster',
+          link: 'https://github.com/NineSwordsMonster',
         },
 
         // Facebook 帐号和链接
-        facebook: {
-          account: 'meteorlxy.cn',
-          link: 'https://www.facebook.com/meteorlxy.cn',
-        },
+        // facebook: {
+        //   account: 'xxx',
+        //   link: 'https://www.facebook.com/xxx',
+        // },
 
         // LinkedIn 帐号和链接
-        linkedin: {
-          account: 'meteorlxy',
-          link: 'http://www.linkedin.com/in/meteorlxy',
-        },
+        // linkedin: {
+        //   account: 'xxx',
+        //   link: 'http://www.linkedin.com/in/xxx',
+        // },
 
         // Twitter 帐号和链接
-        twitter: {
-          account: 'meteorlxy_cn',
-          link: 'https://twitter.com/meteorlxy_cn',
-        },
+        // twitter: {
+        //   account: 'xxx',
+        //   link: 'https://twitter.com/xxx',
+        // },
 
         // 新浪微博 帐号和链接
         weibo: {
@@ -79,50 +78,50 @@ module.exports = {
 
         // 知乎 帐号和链接
         zhihu: {
-          account: 'meteorlxy.cn',
-          link: 'https://www.zhihu.com/people/meteorlxy.cn',
+          account: 'lollipoppp',
+          link: 'https://www.zhihu.com/people/lollipoppp',
         },
 
         // 豆瓣 帐号和链接
         douban: {
-          account: '159342708',
-          link: 'https://www.douban.com/people/159342708',
+          account: '140228670',
+          link: 'https://www.douban.com/people/140228670',
         },
 
         // Reddit 帐号和链接
-        reddit: {
-          account: 'meteorlxy',
-          link: 'https://www.reddit.com/user/meteorlxy',
-        },
+        // reddit: {
+        //   account: 'xxx',
+        //   link: 'https://www.reddit.com/user/xxx',
+        // },
 
         // Medium 帐号和链接
-        medium: {
-          account: 'meteorlxy.cn',
-          link: 'https://medium.com/@meteorlxy.cn',
-        },
+        // medium: {
+        //   account: 'xxx',
+        //   link: 'https://medium.com/xxx',
+        // },
 
         // Instagram 帐号和链接
-        instagram: {
-          account: 'meteorlxy.cn',
-          link: 'https://www.instagram.com/meteorlxy.cn',
-        },
+        // instagram: {
+        //   account: 'xxx',
+        //   link: 'https://www.instagram.com/xxx',
+        // },
 
         // GitLab 帐号和链接
-        gitlab: {
-          account: 'meteorlxy',
-          link: 'https://gitlab.com/meteorlxy',
-        },
+        // gitlab: {
+        //   account: 'xxx',
+        //   link: 'https://gitlab.com/xxx',
+        // },
 
         // Bitbucket 帐号和链接
-        bitbucket: {
-          account: 'meteorlxy',
-          link: 'https://bitbucket.org/meteorlxy',
-        },
+        // bitbucket: {
+        //   account: 'xxx',
+        //   link: 'https://bitbucket.org/xxx',
+        // },
 
         // Docker Hub 帐号和链接
         docker: {
-          account: 'meteorlxy',
-          link: 'https://hub.docker.com/u/meteorlxy',
+          account: 'uwangjia',
+          link: 'https://hub.docker.com/u/uwangjia',
         },
       },
     },
@@ -153,8 +152,8 @@ module.exports = {
 
     // 评论配置，参考下方 [页面评论] 章节
     comments: {
-      owner: 'meteorlxy',
-      repo: 'vuepress-theme-meteorlxy',
+      owner: 'xxx',
+      repo: 'vuepress-theme-xxx',
       clientId: 'MY_CLIENT_ID',
       clientSecret: 'MY_CLIENT_SECRET',
     },
