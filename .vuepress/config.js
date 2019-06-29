@@ -131,7 +131,7 @@ module.exports = {
       // header 的背景，可以使用图片，或者随机变化的图案（geopattern）
       background: {
         // 使用图片的 URL，如果设置了图片 URL，则不会生成随机变化的图案，下面的 useGeo 将失效
-        url: '/assets/img/bg.jpg',
+        // url: '/assets/img/bg.jpg',
 
         // 使用随机变化的图案，如果设置为 false，且没有设置图片 URL，将显示为空白背景
         useGeo: true,
@@ -152,15 +152,15 @@ module.exports = {
 
     // 评论配置，参考下方 [页面评论] 章节
     comments: {
-      owner: 'xxx',
-      repo: 'vuepress-theme-xxx',
-      clientId: 'MY_CLIENT_ID',
-      clientSecret: 'MY_CLIENT_SECRET',
+      owner: 'NineSwordsMonster ',
+      repo: 'gitment-comments',
+      clientId: '6df5e3f1c9df36da16f8',
+      clientSecret: 'b1e8d8bf0f60f1cffd7aedfed12e2383553028ea',
     },
 
     // 分页配置
     pagination: {
-      perPage: 5,
+      perPage: 10,
     },
 
     // 默认页面（可选，默认全为 true）
@@ -170,5 +170,20 @@ module.exports = {
       // 是否允许主题自动添加 Posts 页面 (url: /posts/)
       posts: true,
     },
+
+    extentionConfig: {
+      pwa: {
+
+      },
+  
+      // ga 配置
+      ga: {
+        ga: 'UA-118953951-1'
+      },
+
+      search: {
+        searchMaxSuggestions: 10
+      }
+    }
   },
 }
