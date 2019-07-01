@@ -1,3 +1,6 @@
 [submodule "vuepress-theme-nine"]
 	path = vuepress-theme-nine
 	url = git@github.com:NineSwordsMonster/vuepress-theme-nine.git
+[submodule ".vuepress/theme"]
+	path = .vuepress/theme
+	url = git@github.com:NineSwordsMonster/vuepress-theme-nine.git

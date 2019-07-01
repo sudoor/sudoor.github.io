@@ -14,6 +14,7 @@ module.exports = {
 
   // 使用的主题
   theme: 'nine',
+  
   serviceWorker: true,
 
   // 主题配置
