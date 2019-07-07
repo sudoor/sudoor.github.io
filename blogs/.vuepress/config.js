@@ -153,7 +153,7 @@ module.exports = {
 
     // 评论配置，参考下方 [页面评论] 章节
     comments: {
-      owner: 'NineSwordsMonster ',
+      owner: 'NineSwordsMonster',
       repo: 'gitment-comments',
       clientId: '6df5e3f1c9df36da16f8',
       clientSecret: 'b1e8d8bf0f60f1cffd7aedfed12e2383553028ea',
