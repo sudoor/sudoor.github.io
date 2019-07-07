@@ -10,7 +10,7 @@ description: Linux 提供了crontab的第十任务服务，我们可以使用它
 ---
 ### 定时任务命令：
 &emsp;&emsp;定时任务服务提供crontab命令来设定任务
-```shell
+```bash
 crontab -e // 编辑某个用户的cron服务
 crontab -l // 列出某个用户cron服务的详细内容
 crontab -r // 删除某个用户的cron服务

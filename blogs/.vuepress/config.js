@@ -178,12 +178,10 @@ module.exports = {
       },
   
       // ga 配置
-      ga: {
-        ga: 'UA-118953951-1'
-      },
+      ga: 'UA-118953951-1',
 
       search: {
-        searchMaxSuggestions: 10
+        searchMaxSuggestions: 9
       }
     }
   },

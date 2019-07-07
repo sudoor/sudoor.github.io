@@ -255,7 +255,7 @@ public class Application {
 2. 生成`archetype`
 执行命令
 
-```shell
+```bash
 mvn archetype:create-from-project
 ```
 

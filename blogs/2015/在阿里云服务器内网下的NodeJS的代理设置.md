@@ -25,13 +25,13 @@ ECS的内网机器是无法连接外网，所以考虑使用外网机器作为�
 首先确认内网ECS的网段为:`10.0.0.0/8`
 然后检查squid是否安装
 
-```shell
+```bash
 rpm -qa|grep squid
 ```
 
 安装squid
 
-```shell  
+```bash  
 yum -y install squid
 ```
 配置squid
@@ -50,30 +50,30 @@ cache_mgr xxx@xxx.com
 ```
 初始化
 
-```shell
+```bash
 squid  squid –z
 ```
 用root权限运行
 
-```shell
+```bash
 sudo service 
 squid start（/etc/init.d/squid start）
 ```
 添加端口转发（在路由前将3128端口转发至80）
 
-```shell
+```bash
 iptables -t nat -I PREROUTING -i eth0 -s 10.0.0.0/8 -p tcp --dport 80 -j REDIRECT --to-port 3128
 ```
 查看配置
 
-```shell
+```bash
 iptables -t nat -vnL
 ```
 在内网的机器上安装nodeJS（tar包）
 
 配置nodeJS的代理   
  
-```shell
+```bash
 npm config set proxy=http://squid服务地址:squid监听端口
 ```
 至此，nodeJs就可以访问外网安装modules了

@@ -215,7 +215,7 @@ Markdown的扩展语法，hexo已经支持
 "hexo-pdf": "^1.1.1"
 ```
 执行安装：
-```shell
+```bash
 npm (yarn) install
 ```
 
@@ -223,7 +223,7 @@ npm (yarn) install
 
 ## hexo-filter-plantuml
 安装
-```shell
+```bash
 npm install --save hexo-filter-plantuml
 ```
 即下文的作图插件说明中使用的安装方式
@@ -243,7 +243,7 @@ class Test
 
 ## hexo-filter-sequence
 安装
-```shell
+```bash
 npm install --save hexo-filter-sequence
 ```
 配置
@@ -276,7 +276,7 @@ Su-->Lollipop: I am good thanks!
 
 ## hexo-filter-flowchart
 安装
-```shell
+```bash
 npm install --save hexo-filter-flowchart
 ```
 配置
@@ -326,7 +326,7 @@ c2(no)->op2->e
 
 ## hexo-pdf
 安装：
-```shell
+```bash
 npm install --save hexo-pdf
 ```
 hexo使用语法：
@@ -356,7 +356,7 @@ Slideshare
 
 ## hexo-tag-bilibili
 安装
-```shell
+```bash
 npm install --save hexo-tag-bilibili
 ```
 
