@@ -1,5 +1,8 @@
 language: node_js
 
+os:
+  - osx
+
 node_js:
   - "8"
 
@@ -13,10 +16,11 @@ before_install:
   - export TZ='Asia/Shanghai'
   - export ACCESS_TOKEN=${ACCESS_TOKEN}
   - export USER_NAME=${USER_NAME}
-  - npm install -g vuepress
+  - brew install yarn
+  - yarn global add vuepress
 
 install:
-  - npm install
+  - yarn
   - vuepress info
 
 branches:
@@ -24,7 +28,7 @@ branches:
     - source
 
 script:
-  - npm run build
+  - yarn build
   - cd dist
   - ls -l
   - echo 'hub.alili.fun' > CNAME
