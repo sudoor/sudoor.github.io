@@ -14,10 +14,10 @@ before_install:
   - export ACCESS_TOKEN=${ACCESS_TOKEN}
   - export USER_NAME=${USER_NAME}
   - npm install -g vuepress
-  - vuepress info
 
 install:
   - npm install
+  - vuepress info
 
 branches:
   only:

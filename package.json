@@ -16,6 +16,6 @@
   },
   "dependencies": {
     "vuepress": "^1.0.2",
-    "vuepress-theme-nine": "2.0.0-beta.3"
+    "vuepress-theme-nine": "2.0.0-beta.4"
   }
 }
