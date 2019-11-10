@@ -14,8 +14,13 @@
     "dev": "npx vuepress dev -t temp --debug --no-clear-screen blogs",
     "build": "npx vuepress build blogs --dest dist"
   },
+<<<<<<< HEAD
   "dependencies": {},
   "devDependencies": {
     "vuepress": "^1.2.0"
+=======
+  "dependencies": {
+    "vuepress": "^1.0.2"
+>>>>>>> c724878bdeb42268a759cf9b72b73bf6af7abd0d
   }
 }
