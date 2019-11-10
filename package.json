@@ -14,8 +14,8 @@
     "dev": "npx vuepress dev -t temp --debug --no-clear-screen blogs",
     "build": "npx vuepress build blogs --dest dist"
   },
-  "dependencies": {
-    "vuepress": "^1.0.2",
-    "vuepress-theme-nine": "2.0.0-beta.4"
+  "dependencies": {},
+  "devDependencies": {
+    "vuepress": "^1.2.0"
   }
 }
