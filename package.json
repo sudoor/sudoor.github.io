@@ -9,13 +9,17 @@
     "name": "NineSwordsMonster",
     "email": "wangjia_1919@163.com"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/nine-theme"
+  },
   "license": "MIT",
   "scripts": {
-    "dev": "npx vuepress dev -t temp --debug --no-clear-screen blogs",
+    "dev": "npx vuepress dev --debug --no-clear-screen blogs",
     "build": "npx vuepress build blogs --dest dist"
   },
   "dependencies": {},
   "devDependencies": {
+    "@nine-theme/vuepress-theme-nine": "^4.0.0-alpha.1",
     "vuepress": "^1.2.0"
   }
 }
