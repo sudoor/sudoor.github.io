@@ -1,6 +1,8 @@
 #!/usr/bin/env sh
 
 set -e
+npm install -g vuepress
+npm install
 npm run build
 cd dist
 echo 'hub.alili.fun' > CNAME
