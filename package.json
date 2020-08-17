@@ -20,6 +20,6 @@
   "dependencies": {},
   "devDependencies": {
     "@nine-theme/vuepress-theme-nine": "^4.0.0-alpha.1",
-    "vuepress": "^1.2.0"
+    "vuepress": "^1.5.3"
   }
 }
