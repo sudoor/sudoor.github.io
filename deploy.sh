@@ -2,7 +2,7 @@
 
 set -e
 npm install -g vuepress
-npm install --registry=https://npm.pkg.github.com/nine-theme
+npm install
 npm run build
 cd dist
 echo 'hub.alili.fun' > CNAME
