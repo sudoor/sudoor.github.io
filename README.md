@@ -1,8 +1,13 @@
 ---
 home: true
-# navbar: false
+navbar: false
 # heroImage: /hero.png
-# heroText: null
+heroText: 1111
 ---
 
-11111
+<div style="text-align: center">
+
+[文档](/docs/) | 
+[博客](/blogs/) 
+
+</div>

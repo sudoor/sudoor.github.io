@@ -11,8 +11,13 @@ module.exports = {
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "VuePress",
-      description: "Vue 驱动的静态网站生成器",
+      title: "NineSwords blog",
+      description: "NineSwords blog",
+    },
+    "/en/": {
+      lang: "en-US",
+      title: "NineSwords blog",
+      description: "It's my blog",
     },
   },
 
@@ -22,6 +27,21 @@ module.exports = {
     locales: {
       "/": {
         selectLanguageName: "简体中文",
+        navbar: [
+          { text: "主页", link: "/" },
+          { text: "文档", link: "/docs/" },
+          { text: "博客", link: "/blogs/" },
+          { text: "Github", link: "https://github.com/NineSwordsMonster" },
+        ],
+      },
+      "/en/": {
+        selectLanguageName: "English",
+        navbar: [
+            { text: "Home", link: "/en/" },
+            { text: "Documents", link: "/en/docs/" },
+            { text: "Blogs", link: "/en/blogs/" },
+            { text: "Github", link: "https://github.com/NineSwordsMonster" },
+          ],
       },
     },
   },
@@ -44,14 +64,14 @@ module.exports = {
   host: "127.0.0.1",
   port: 2233,
   //   open: false,
-    evergreen: true,
-    pagePatterns: ['**/*.md', '!.vuepress', '!node_modules'],
+  evergreen: true,
+  pagePatterns: ["**/*.md", "!.vuepress", "!node_modules"],
   //   templateDev: '@vuepress/client/templates/index.dev.html',
   //   templateSSR: '@vuepress/client/templates/index.ssr.html',
-    shouldPreload: (file, type) => {
-      return true;
-    },
-    shouldPrefetch: (file, type) => {
-      return true;
-    },
+  shouldPreload: (file, type) => {
+    return true;
+  },
+  shouldPrefetch: (file, type) => {
+    return true;
+  },
 };
