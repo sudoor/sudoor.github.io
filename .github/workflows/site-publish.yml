@@ -59,4 +59,4 @@ jobs:
         echo 'hub.alili.fun' >> CNAME
         git add .
         git commit -m "GitHub Actions Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
-        git push "https://${{ secrets.ACC_TOKEN }}@$GITHUB_REPO" master:gh-page
+        git push --force "https://${{ secrets.ACC_TOKEN }}@$GITHUB_REPO" master:gh-page
