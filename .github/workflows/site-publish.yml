@@ -41,6 +41,7 @@ jobs:
         cd ./dist && git init && git add .
         git config user.name "NineSwordsMonster"
         git config user.email "wangjia_1919@163.com"
+        echo 'hub.alili.fun' >> CNAME
         git add .
         git commit -m "GitHub Actions Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
         git push --force --quiet "https://${{ secrets.ACC_TOKEN }}@$GITHUB_REPO" master:gh-page
