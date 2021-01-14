@@ -1,0 +1,2 @@
+(self.webpackChunkblog=self.webpackChunkblog||[]).push([[325],{9098:(e,t,n)=>{"use strict";n.r(t),n.d(t,{data:()=>r});const r={key:"v-3209da50",path:"/en/docs/vue/",title:"",frontmatter:{},excerpt:"",headers:[],filePathRelative:"en/docs/vue/index.md",git:{updatedTime:1610611564e3,contributors:[]}}},1451:(e,t,n)=>{"use strict";n.r(t),n.d(t,{default:()=>r});const r={render:function(e,t){return null}}}}]);
+//# sourceMappingURL=v-3209da50.82223a3a.js.map

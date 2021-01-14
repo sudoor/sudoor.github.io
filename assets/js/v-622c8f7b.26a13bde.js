@@ -1,0 +1,2 @@
+(self.webpackChunkblog=self.webpackChunkblog||[]).push([[946],{6095:(e,t,n)=>{"use strict";n.r(t),n.d(t,{data:()=>r});const r={key:"v-622c8f7b",path:"/en/docs/spring/",title:"",frontmatter:{},excerpt:"",headers:[],filePathRelative:"en/docs/spring/index.md",git:{updatedTime:1610611564e3,contributors:[]}}},6148:(e,t,n)=>{"use strict";n.r(t),n.d(t,{default:()=>r});const r={render:function(e,t){return null}}}}]);
+//# sourceMappingURL=v-622c8f7b.26a13bde.js.map
